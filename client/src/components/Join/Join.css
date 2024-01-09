@@ -1,0 +1,45 @@
+.Container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(132, 214, 252, 0.986);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.Container > h1 {
+    color: #000;
+    text-decoration: underline;
+}
+
+.minContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.minContainer > input {
+    height: 25px;
+    background-color: #ffffffcb;
+    border: 1px solid #000;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 5px 0px #000000;
+    padding: 2px 5px;
+}
+
+.minContainer > button{
+    background-color: #000;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    border: none;
+}
+
+.namebalon {
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    text-align: start;
+    padding: 5px;
+    font-weight: 100;
+}
